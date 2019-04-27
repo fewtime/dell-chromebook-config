@@ -1,0 +1,223 @@
+<config>
+ <paths>
+  <path recursive="1">/home/cowlog/.dict</path>
+ </paths>
+ <sounddirs/>
+ <dictionaryOrder id="0" name="">
+  <dictionary name="21世纪英汉汉英双向词典">6c4b2bb88b06a01f50a2e115a00e8236</dictionary>
+  <dictionary name="English Wikipedia">ae6f89aac7151829681b85f035d54e48</dictionary>
+  <dictionary name="Google En-En (Oxford)">b88cb2898e634c6638df618528284c2d</dictionary>
+  <dictionary name="SoundEn">06719274732c98178ebbd14115d7ec86</dictionary>
+  <dictionary name="Urban Dictionary">f376365a0de651fd7505e7e5e683aa45</dictionary>
+  <dictionary name="朗道汉英字典5.0">fa9ee6843af079f5cb6cb6cc2400fb5e</dictionary>
+  <dictionary name="朗道英汉字典5.0">85e1415d2e1f460cdf598e9ba28d0780</dictionary>
+  <dictionary name="牛津英汉双解美化版">ec82e05ccfa374a7ea3946aaa555e0df</dictionary>
+  <dictionary name="Cambridge Advanced Learner's Dictionary">29ba73614073d95070da95df35cc3957</dictionary>
+  <dictionary name="The American Heritage® Dictionary of the English Language, Fourth Edition">123f170a332c0941c09e2f3a367c17db</dictionary>
+  <dictionary name="BBI collocation dictionary,BBI╙в╙я┤ю┼ф┤╩╡ф">210357702e27c735b0ff23fca5002dce</dictionary>
+  <dictionary name="bbi">83db6e24a777410c659c1cc795a16942</dictionary>
+  <dictionary name="Concise Oxford English Dictionary and Thesaurus">69b7766cc6a3a080f27a37021f59a695</dictionary>
+  <dictionary name="Collins COBUILD English Usage">b89a57bf40882815a56d95455e561f2e</dictionary>
+  <dictionary name="Collins Thesaurus">252f567f2d05f2644f9439f6c446820d</dictionary>
+  <dictionary name="Collins COBUILD English Usage">176c2b6f40595e98e6f4897717502a97</dictionary>
+  <dictionary name="LDOCE5">2ea443fa42b6407fe756e593a580fdd4</dictionary>
+  <dictionary name="LDOCE5">5ba0c2d5d2446723441ddbdf59242ee5</dictionary>
+  <dictionary name="The New Oxford Thesaurus of English">a4f5f5af6df9b2b157f6c070cd51295d</dictionary>
+  <dictionary name="Oxford Dictionary of English 2nd">c569028c57f3773627044e3f1ec9e3f4</dictionary>
+  <dictionary name="Random House Webster's Unabridged Dictionary [167746](090610)">24792f3cbbfa29a1aa8996468cb900be</dictionary>
+  <dictionary name="USE THE RIGHT WORD">7480ade4a6f46ceb60c01650a20f6077</dictionary>
+  <dictionary name="Webster's New World College Dictionary">9a83482aa34bb32f58cb8f1dc7e301e5</dictionary>
+  <dictionary name="Merriam-Webster's Advanced Learner's Dictionary">a08b6e07900cd319a3729c1df7b57de4</dictionary>
+  <dictionary name="Webster's Dictionary of English Usage">9beeb2472d31d36cd38c6cd609865e9d</dictionary>
+  <dictionary name="WordNet 3.0 Copyright 2006 by Princeton University. ">dc3d637a94cc1a864c81c46679c0e883</dictionary>
+  <dictionary name="World Book Dictionary">020fe796485fb05b6aa3d62faa37a47b</dictionary>
+  <dictionary name="collins双解词典">e3c4e9367745c3517847c2020d022e11</dictionary>
+  <dictionary name="┼г╜Є┤ю┼ф╙я┤╩╡ф╡┌2░ц">f0b461aa5f7651fc1d274a39b07b8f4a</dictionary>
+  <dictionary name="Merriam-Webster's Collegiate Dictionary 11th Edition">916f92eaccf1059cc6b7ee98d2884646</dictionary>
+  <mutedDictionaries/>
+ </dictionaryOrder>
+ <inactiveDictionaries id="0" name="">
+  <mutedDictionaries/>
+ </inactiveDictionaries>
+ <groups nextId="3">
+  <group icon="en.png" id="1" name="En">
+   <dictionary name="朗道英汉字典5.0">85e1415d2e1f460cdf598e9ba28d0780</dictionary>
+   <dictionary name="牛津英汉双解美化版">ec82e05ccfa374a7ea3946aaa555e0df</dictionary>
+   <dictionary name="21世纪英汉汉英双向词典">6c4b2bb88b06a01f50a2e115a00e8236</dictionary>
+   <mutedDictionaries/>
+  </group>
+  <group icon="en.png" id="2" name="Eng">
+   <dictionary name="collins双解词典">e3c4e9367745c3517847c2020d022e11</dictionary>
+   <dictionary name="LDOCE5">2ea443fa42b6407fe756e593a580fdd4</dictionary>
+   <dictionary name="LDOCE5">5ba0c2d5d2446723441ddbdf59242ee5</dictionary>
+   <dictionary name="Cambridge Advanced Learner's Dictionary">29ba73614073d95070da95df35cc3957</dictionary>
+   <dictionary name="The American Heritage® Dictionary of the English Language, Fourth Edition">123f170a332c0941c09e2f3a367c17db</dictionary>
+   <dictionary name="BBI collocation dictionary,BBI╙в╙я┤ю┼ф┤╩╡ф">210357702e27c735b0ff23fca5002dce</dictionary>
+   <dictionary name="bbi">83db6e24a777410c659c1cc795a16942</dictionary>
+   <dictionary name="Concise Oxford English Dictionary and Thesaurus">69b7766cc6a3a080f27a37021f59a695</dictionary>
+   <dictionary name="Collins COBUILD English Usage">b89a57bf40882815a56d95455e561f2e</dictionary>
+   <dictionary name="Collins Thesaurus">252f567f2d05f2644f9439f6c446820d</dictionary>
+   <dictionary name="Collins COBUILD English Usage">176c2b6f40595e98e6f4897717502a97</dictionary>
+   <dictionary name="The New Oxford Thesaurus of English">a4f5f5af6df9b2b157f6c070cd51295d</dictionary>
+   <dictionary name="Oxford Dictionary of English 2nd">c569028c57f3773627044e3f1ec9e3f4</dictionary>
+   <dictionary name="Random House Webster's Unabridged Dictionary [167746](090610)">24792f3cbbfa29a1aa8996468cb900be</dictionary>
+   <dictionary name="USE THE RIGHT WORD">7480ade4a6f46ceb60c01650a20f6077</dictionary>
+   <dictionary name="Webster's New World College Dictionary">9a83482aa34bb32f58cb8f1dc7e301e5</dictionary>
+   <dictionary name="Merriam-Webster's Advanced Learner's Dictionary">a08b6e07900cd319a3729c1df7b57de4</dictionary>
+   <dictionary name="Webster's Dictionary of English Usage">9beeb2472d31d36cd38c6cd609865e9d</dictionary>
+   <dictionary name="WordNet 3.0 Copyright 2006 by Princeton University. ">dc3d637a94cc1a864c81c46679c0e883</dictionary>
+   <dictionary name="World Book Dictionary">020fe796485fb05b6aa3d62faa37a47b</dictionary>
+   <dictionary name="┼г╜Є┤ю┼ф╙я┤╩╡ф╡┌2░ц">f0b461aa5f7651fc1d274a39b07b8f4a</dictionary>
+   <dictionary name="Merriam-Webster's Collegiate Dictionary 11th Edition">916f92eaccf1059cc6b7ee98d2884646</dictionary>
+   <mutedDictionaries/>
+  </group>
+ </groups>
+ <hunspell dictionariesPath=""/>
+ <transliteration>
+  <enableRussianTransliteration>0</enableRussianTransliteration>
+  <enableGermanTransliteration>0</enableGermanTransliteration>
+  <enableGreekTransliteration>0</enableGreekTransliteration>
+  <enableBelarusianTransliteration>0</enableBelarusianTransliteration>
+  <romaji>
+   <enable>0</enable>
+   <enableHepburn>1</enableHepburn>
+   <enableNihonShiki>0</enableNihonShiki>
+   <enableKunreiShiki>0</enableKunreiShiki>
+   <enableHiragana>1</enableHiragana>
+   <enableKatakana>1</enableKatakana>
+  </romaji>
+ </transliteration>
+ <forvo>
+  <enable>0</enable>
+  <apiKey></apiKey>
+  <languageCodes></languageCodes>
+ </forvo>
+ <mediawikis>
+  <mediawiki icon="" enabled="1" id="ae6f89aac7151829681b85f035d54e48" name="English Wikipedia" url="https://en.wikipedia.org/w"/>
+  <mediawiki icon="" enabled="0" id="affcf9678e7bfe701c9b071f97eccba3" name="English Wiktionary" url="https://en.wiktionary.org/w"/>
+  <mediawiki icon="" enabled="0" id="8e0c1c2b6821dab8bdba8eb869ca7176" name="Russian Wikipedia" url="https://ru.wikipedia.org/w"/>
+  <mediawiki icon="" enabled="0" id="b09947600ae3902654f8ad4567ae8567" name="Russian Wiktionary" url="https://ru.wiktionary.org/w"/>
+  <mediawiki icon="" enabled="0" id="a8a66331a1242ca2aeb0b4aed361c41d" name="German Wikipedia" url="https://de.wikipedia.org/w"/>
+  <mediawiki icon="" enabled="0" id="21c64bca5ec10ba17ff19f3066bc962a" name="German Wiktionary" url="https://de.wiktionary.org/w"/>
+  <mediawiki icon="" enabled="0" id="96957cb2ad73a20c7a1d561fc83c253a" name="Portuguese Wikipedia" url="https://pt.wikipedia.org/w"/>
+  <mediawiki icon="" enabled="0" id="ed4c3929196afdd93cc08b9a903aad6a" name="Portuguese Wiktionary" url="https://pt.wiktionary.org/w"/>
+  <mediawiki icon="" enabled="0" id="f3b4ec8531e52ddf5b10d21e4577a7a2" name="Greek Wikipedia" url="https://el.wikipedia.org/w"/>
+  <mediawiki icon="" enabled="0" id="5d45232075d06e002dea72fe3e137da1" name="Greek Wiktionary" url="https://el.wiktionary.org/w"/>
+ </mediawikis>
+ <websites>
+  <website icon="" enabled="1" id="b88cb2898e634c6638df618528284c2d" name="Google En-En (Oxford)" url="https://www.google.com/dictionary?aq=f&amp;langpair=en|en&amp;q=%GDWORD%&amp;hl=en"/>
+  <website icon="" enabled="1" id="f376365a0de651fd7505e7e5e683aa45" name="Urban Dictionary" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
+  <website icon="" enabled="0" id="324ca0306187df7511b26d3847f4b07c" name="Multitran (En)" url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%"/>
+  <website icon="" enabled="0" id="924db471b105299c82892067c0f10787" name="Lingvo (En-Ru)" url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%"/>
+  <website icon="" enabled="0" id="087a6d65615fb047f4c80eef0a9465db" name="Michaelis (Pt-En)" url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%"/>
+ </websites>
+ <dictservers/>
+ <programs/>
+ <voiceEngines/>
+ <mutedDictionaries/>
+ <popupMutedDictionaries>
+  <mutedDictionary>ae6f89aac7151829681b85f035d54e48</mutedDictionary>
+  <mutedDictionary>06719274732c98178ebbd14115d7ec86</mutedDictionary>
+  <mutedDictionary>b88cb2898e634c6638df618528284c2d</mutedDictionary>
+ </popupMutedDictionaries>
+ <preferences>
+  <interfaceLanguage></interfaceLanguage>
+  <helpLanguage></helpLanguage>
+  <displayStyle></displayStyle>
+  <newTabsOpenAfterCurrentOne>0</newTabsOpenAfterCurrentOne>
+  <newTabsOpenInBackground>1</newTabsOpenInBackground>
+  <hideSingleTab>0</hideSingleTab>
+  <mruTabOrder>0</mruTabOrder>
+  <hideMenubar>0</hideMenubar>
+  <enableTrayIcon>1</enableTrayIcon>
+  <startToTray>0</startToTray>
+  <closeToTray>1</closeToTray>
+  <autoStart>0</autoStart>
+  <doubleClickTranslates>1</doubleClickTranslates>
+  <selectWordBySingleClick>0</selectWordBySingleClick>
+  <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
+  <zoomFactor>1</zoomFactor>
+  <helpZoomFactor>1</helpZoomFactor>
+  <wordsZoomLevel>0</wordsZoomLevel>
+  <enableMainWindowHotkey>1</enableMainWindowHotkey>
+  <mainWindowHotkey>Ctrl+F11, Ctrl+F11</mainWindowHotkey>
+  <enableClipboardHotkey>1</enableClipboardHotkey>
+  <clipboardHotkey>Ctrl+C, Ctrl+C</clipboardHotkey>
+  <enableScanPopup>1</enableScanPopup>
+  <startWithScanPopupOn>0</startWithScanPopupOn>
+  <enableScanPopupModifiers>0</enableScanPopupModifiers>
+  <scanPopupModifiers>0</scanPopupModifiers>
+  <scanPopupAltMode>0</scanPopupAltMode>
+  <scanPopupAltModeSecs>3</scanPopupAltModeSecs>
+  <scanToMainWindow>0</scanToMainWindow>
+  <scanPopupUseUIAutomation>1</scanPopupUseUIAutomation>
+  <scanPopupUseIAccessibleEx>1</scanPopupUseIAccessibleEx>
+  <scanPopupUseGDMessage>1</scanPopupUseGDMessage>
+  <pronounceOnLoadMain>0</pronounceOnLoadMain>
+  <pronounceOnLoadPopup>0</pronounceOnLoadPopup>
+  <useExternalPlayer>0</useExternalPlayer>
+  <useInternalPlayer>1</useInternalPlayer>
+  <audioPlaybackProgram>mplayer</audioPlaybackProgram>
+  <alwaysOnTop>0</alwaysOnTop>
+  <searchInDock>0</searchInDock>
+  <historyStoreInterval>0</historyStoreInterval>
+  <proxyserver enabled="0" useSystemProxy="0">
+   <type>0</type>
+   <host></host>
+   <port>3128</port>
+   <user></user>
+   <password></password>
+   <systemProxyUser></systemProxyUser>
+   <systemProxyPassword></systemProxyPassword>
+  </proxyserver>
+  <checkForNewReleases>1</checkForNewReleases>
+  <disallowContentFromOtherSites>0</disallowContentFromOtherSites>
+  <enableWebPlugins>0</enableWebPlugins>
+  <hideGoldenDictHeader>0</hideGoldenDictHeader>
+  <maxStringsInHistory>500</maxStringsInHistory>
+  <storeHistory>1</storeHistory>
+  <alwaysExpandOptionalParts>0</alwaysExpandOptionalParts>
+  <addonStyle>dark-theme</addonStyle>
+  <collapseBigArticles>0</collapseBigArticles>
+  <articleSizeLimit>2000</articleSizeLimit>
+  <maxDictionaryRefsInContextMenu>20</maxDictionaryRefsInContextMenu>
+  <trackClipboardChanges>0</trackClipboardChanges>
+  <fullTextSearch>
+   <searchMode>0</searchMode>
+   <matchCase>0</matchCase>
+   <maxArticlesPerDictionary>100</maxArticlesPerDictionary>
+   <maxDistanceBetweenWords>2</maxDistanceBetweenWords>
+   <useMaxArticlesPerDictionary>0</useMaxArticlesPerDictionary>
+   <useMaxDistanceBetweenWords>1</useMaxDistanceBetweenWords>
+   <dialogGeometry></dialogGeometry>
+   <disabledTypes></disabledTypes>
+   <enabled>0</enabled>
+   <maxDictionarySize>0</maxDictionarySize>
+  </fullTextSearch>
+ </preferences>
+ <lastMainGroupId>2</lastMainGroupId>
+ <lastPopupGroupId>0</lastPopupGroupId>
+ <popupWindowState>AAAA/wAAAAH9AAAAAAAAAggAAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
+ <popupWindowGeometry>AdnQywADAAAAAACYAAABywAAAsQAAANdAAAAmAAAAcsAAALEAAADXQAAAAEAAAAAB4AAAACYAAABywAAAsQAAANd</popupWindowGeometry>
+ <pinPopupWindow>0</pinPopupWindow>
+ <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAAP////8AAACFAP///wAAAAEAAADMAAADzfwCAAAAAvsAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAADsAAAHlAAAAYQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAACJgAAAeIAAABhAP///wAAAuQAAAPNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgEAAAJT/////wAAAAAAAAAA</mainWindowState>
+ <mainWindowGeometry>AdnQywADAAAAAAPBAAAAKQAAB3oAAAQyAAADwwAAACkAAAd4AAAEMAAAAAEAAAAAB4AAAAPDAAAAKQAAB3gAAAQw</mainWindowGeometry>
+ <helpWindowGeometry></helpWindowGeometry>
+ <helpSplitterState></helpSplitterState>
+ <dictInfoGeometry></dictInfoGeometry>
+ <inspectorGeometry></inspectorGeometry>
+ <timeForNewReleaseCheck>2019-04-25T16:05:09</timeForNewReleaseCheck>
+ <skippedRelease></skippedRelease>
+ <showingDictBarNames>0</showingDictBarNames>
+ <usingSmallIconsInToolbars>0</usingSmallIconsInToolbars>
+ <editDictionaryCommandLine></editDictionaryCommandLine>
+ <maxPictureWidth>0</maxPictureWidth>
+ <maxHeadwordSize>256</maxHeadwordSize>
+ <headwordsDialog>
+  <searchMode>0</searchMode>
+  <matchCase>0</matchCase>
+  <autoApply>0</autoApply>
+  <headwordsExportPath></headwordsExportPath>
+  <headwordsDialogGeometry></headwordsDialogGeometry>
+ </headwordsDialog>
+</config>

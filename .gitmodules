@@ -1,0 +1,3 @@
+[submodule ".spacemacs.d/layers/w3m"]
+	path = .spacemacs.d/layers/w3m
+	url = https://github.com/venmos/w3m-layer.git

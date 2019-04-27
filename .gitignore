@@ -1,0 +1,12 @@
+*.LOG
+*.log
+LOG
+log
+*history*
+goldendict/config/index/*
+.config/chromium
+.config/libreoffice
+.config/fcitx/rime/luna_pinyin.userdb
+.config/google-chrome-unstable
+.config/electronic-wechat
+.config/fcitx/clipboard
