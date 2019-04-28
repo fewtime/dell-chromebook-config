@@ -662,3 +662,5 @@ export RSYNC_PROXY="rsync://127.0.0.1:8118/"
 export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
 export https_proxy="http://127.0.0.1:8118/"
 export HTTPS_PROXY="http://127.0.0.1:8118/"
+
+alias rm="trash"

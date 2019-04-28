@@ -111,6 +111,7 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias telegram="proxychains telegram-cli"
 alias emacs="proxychains emacs -nw"
+alias rm="trash"
 
 # proxy
 export all_proxy='http://127.0.0.1:8118'
