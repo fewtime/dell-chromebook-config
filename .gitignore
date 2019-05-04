@@ -10,3 +10,5 @@ goldendict/config/index/*
 .config/google-chrome-unstable
 .config/electronic-wechat
 .config/fcitx/clipboard
+.config/mpv/watch_later
+.config/mpv/mpv_sub-delay.json

@@ -1,7 +1,7 @@
 [Default Applications]
-text/html=firefox.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+text/html=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
 x-scheme-handler/about=chromium.desktop
 x-scheme-handler/unknown=chromium.desktop
 x-scheme-handler/ftp=firefox.desktop
@@ -12,6 +12,7 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -25,3 +26,11 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+image/gif=viewnior.desktop;feh.desktop;wine-extension-gif.desktop;
+application/zip=org.pwmt.zathura-cb.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;wine-extension-pdf.desktop;
+image/jpeg=feh.desktop;wine-extension-jpe.desktop;
+video/mp4=mpv.desktop;vlc.desktop;
+text/plain=wine-extension-txt.desktop;
+application/wps-office.pptx=wps-office-wpp.desktop;
+application/wps-office.doc=wps-office-wps.desktop;

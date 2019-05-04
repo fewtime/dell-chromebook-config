@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="plugins" type="empty">
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="add-primary-clipboard" type="bool" value="false"/>
+        <property name="show-qr-code" type="bool" value="true"/>
+        <property name="save-on-quit" type="bool" value="true"/>
+        <property name="max-images-in-history" type="uint" value="1"/>
+      </property>
+    </property>
+  </property>
+</channel>

@@ -70,8 +70,10 @@ This function should only modify configuration layer settings."
      python
      ;; tools
      dap
-     w3m
+
      leetcode
+
+     cowlog
      )
 
    ;; List of additional packages that will be installed without being
@@ -498,7 +500,9 @@ before packages are loaded."
       (let ((file (tramp-file-name-localname (tramp-dissect-file-name file))))
         (replace-regexp-in-string (concat "\\`" dir) "" file))))
   ;; leetcode
-  (setq leetcode-prefer-language "python3")
+  (setq leetcode-prefer-language "cpp")
+  ;; x clipboard
+  (setq x-select-enable-clipboard-manager nil)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

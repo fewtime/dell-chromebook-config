@@ -223,10 +223,10 @@ exec --no-startup-id compton --config $HOME/.config/compton -b &
 exec --no-startup-id mpd $HOME/.config/mpd/mpd.conf
 exec --no-startup-id xfce4-clipman &
 exec --no-startup-id goldendict &
+exec --no-startup-id aria2c --conf-path=$HOME/.config/aria2.conf --enable-rpc --rpc-listen-all --all-proxy='http://127.0.0.1:8118' --no-proxy='localhost,127.0.0.1,192.168.1.1,::1,*.local'
+exec --no-startup-id dropbox &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id aria2c --conf-path=$HOME/.config/aria2.conf --enable-rpc --rpc-listen-all --all-proxy='http://127.0.0.1:8118' --no-proxy='localhost,127.0.0.1,192.168.1.1,::1,*.local'
 exec_always feh --bg-fill $HOME/Pictures/background.jpg
-exec_always redshitf -o 4500
 
 # wine
 for_window [instance="QQ.exe"] floating enable
