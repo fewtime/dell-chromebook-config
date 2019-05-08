@@ -251,13 +251,19 @@
 
 ;; Clocking in
 (defun cowlog-org/init-org-clock-convenience ()
-  (use-package org-clock-convenience
-    :bind (:map org-agenda-mode-map
-                ("<S-up>" . org-clock-convenience-timestamp-up)
-                ("<S-down>" . org-clock-convenience-timestamp-down)
-                ("o" . org-clock-convenience-fill-gap)
-                ("e" . org-clock-convenience-fill-gap-both)))
-  )
+  :init
+  (use-package
+    org-clock-convenience
+
+    :config
+    (progn
+      (with-eval-after-load 'org-agenda
+        (define-key org-agenda-mode-map (kbd "<S-up>") 'org-clock-convenience-timestamp-up)
+        (define-key org-agenda-mode-map (kbd "<S-down>") 'org-clock-convenience-timestamp-down)
+        (define-key org-agenda-mode-map (kbd "o") 'org-clock-convenience-fill-gap)
+        (define-key org-agenda-mode-map (kbd "e") 'org-clock-convenience-fill-gap-both)
+        (spacemacs/set-leader-keys-for-major-mode 'org-agenda-mode-map
+          "." 'spacemacs/org-agenda-transient-state/body)))))
 
 ;; Doing
 (defun cowlog-org/post-init-org-pomodoro ()
