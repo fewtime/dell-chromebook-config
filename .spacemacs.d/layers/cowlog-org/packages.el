@@ -75,8 +75,8 @@
       (setq org-clock-out-remove-zero-time-clocks t) ;; Show the clocked-in task - if any - in the header line
 
       (setq org-plantuml-jar-path
-            (expand-file-name "~/.spacemacs.d/plantuml.jar"))
-      (setq org-ditaa-jar-path "~/.spacemacs.d/ditaa.jar")
+            (expand-file-name org-plantuml-dir))
+      (setq org-ditaa-jar-path org-ditaa-dir)
 
       ;; org-babel
       (org-babel-do-load-languages

@@ -74,6 +74,7 @@ This function should only modify configuration layer settings."
      scheme
      lua
      python
+     plantuml
      ;; tools
      dap
      ;; (wakatime :variables
