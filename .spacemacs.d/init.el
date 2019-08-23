@@ -76,9 +76,9 @@ This function should only modify configuration layer settings."
      python
      ;; tools
      dap
-     (wakatime :variables
-               wakatime-api-key "bfb119be-dfd3-474f-bddb-5ccb3011424e"
-               wakatime-cli-path "/usr/bin/wakatime")
+     ;; (wakatime :variables
+     ;;           wakatime-api-key "bfb119be-dfd3-474f-bddb-5ccb3011424e"
+     ;;           wakatime-cli-path "/usr/bin/wakatime")
      deft
      ;; custom layer
      leetcode
