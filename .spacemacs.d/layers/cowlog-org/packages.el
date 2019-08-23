@@ -34,7 +34,6 @@
     (org :location built-in)
     org-pomodoro
     org-clock-convenience
-    deft
     )
   )
 
@@ -77,6 +76,17 @@
       (setq org-plantuml-jar-path
             (expand-file-name org-plantuml-dir))
       (setq org-ditaa-jar-path org-ditaa-dir)
+
+      ;; deft
+      (setq deft-directory deft-dir)
+      (setq deft-extensions '("org" "md" "txt"))
+      (setq deft-use-filename-as-title t)
+      (setq deft-text-mode 'org-mode)
+
+      ;; org-brain
+      (setq org-brain-path brain-dir)
+      (setq org-id-track-globally t)
+      (setq org-id-locations-file org-id-locations-file-path)
 
       ;; org-babel
       (org-babel-do-load-languages
