@@ -47,6 +47,7 @@ alias rm="trash"
 alias ym="mpsyt"
 alias folder-size="du -h --max-depth=1"
 alias yv='mpv --ytdl-raw-options-append=proxy=http://127.0.0.1:8118 --ytdl-format="bestvideo[ext=mp4][height<=?1080]+bestaudio[ext=m4a]" $1'
+alias yvb='mpv --ytdl-raw-options-append=proxy=http://127.0.0.1:8118 --ytdl-format="bestvideo[ext=mp4]+bestaudio/best" $1'
 alias yvm='mpv --no-video --ytdl-raw-options-append=proxy=http://127.0.0.1:8118 --ytdl-format="bestvideo[ext=mp4][height<=?1080]+bestaudio/best" $1'
 
 # proxy
@@ -62,3 +63,7 @@ export rsync_proxy="rsync://127.0.0.1:8118/"
 export no_proxy="localhost,127.0.0.1,192.168.1.1,::1,*.local"
 export HTTP_PROXY="http://127.0.0.1:8118/"
 export FTP_PROXY="ftp://127.0.0.1:8118/"
+export RSYNC_PROXY="rsync://127.0.0.1:8118/"
+export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+export https_proxy="http://127.0.0.1:8118/"
+export HTTPS_PROXY="http://127.0.0.1:8118/"
