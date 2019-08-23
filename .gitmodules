@@ -1,6 +1,6 @@
 [submodule ".spacemacs.d/layers/w3m"]
 	path = .spacemacs.d/layers/w3m
 	url = https://github.com/venmos/w3m-layer.git
-[submodule ".tmux"]
+[submodule "oh-my-tmux"]
 	path = .tmux
 	url = https://github.com/gpakosz/.tmux.git
