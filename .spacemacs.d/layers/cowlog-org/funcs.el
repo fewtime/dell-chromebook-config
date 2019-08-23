@@ -100,3 +100,22 @@
   (interactive)
   (org-agenda nil " ")
   (delete-other-windows))
+
+;; hugo
+;; @source: https://ox-hugo.scripter.co/doc/org-capture-setup/
+(defun cowlog/org-hugo-new-subtree-post-capture-template ()
+  "Returns `org-capture' template string for new Hugo post.
+See `org-capture-templates' for more information."
+  (let* (;; http://www.holgerschurig.de/en/emacs-blog-from-org-to-hugo/
+         (date (format-time-string (org-time-stamp-format :long :inactive) (org-current-time)))
+         (title (read-from-minibuffer "Post Title: ")) ;Prompt to enter the post title
+         (fname (org-hugo-slug title)))
+    (mapconcat #'identity
+               `(
+                 ,(concat "** TODO " title "     :post:tags:")
+                 ":PROPERTIES:"
+                 ,(concat ":EXPORT_FILE_NAME: " fname)
+                 ;; ,(concat ":EXPORT_DATE: " date) ;Enter current date and time
+                 ":END:"
+                 "%?\n")          ;Place the cursor here finally
+               "\n")))

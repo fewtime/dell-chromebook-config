@@ -46,7 +46,6 @@
       (require 'org)
       (require 'org-habit)
 
-
       ;; 加密文章
       ;; "http://coldnew.github.io/blog/2013/07/13_5b094.html"
       ;; org-mode 設定
@@ -111,6 +110,8 @@
 
       (setq deft-file-capture (expand-file-name "capture.org" deft-dir))
 
+      (setq blog-file (expand-file-name "blog.org" org-agenda-dir))
+
       ;; Collecting
       (setq org-capture-templates
             `(("i" "Todo [inbox]" entry (file+headline org-agenda-file-inbox "Task")
@@ -118,7 +119,9 @@
               ("t" "Tickler" entry (file+headline org-agenda-file-inbox "Tickler")
                "* %i%? \n %U")
               ("s" "snippet" entry (file deft-file-capture)
-               "* Snippet %<%Y-%m-%d %H:%M>\n%?")))
+               "* Snippet %<%Y-%m-%d %H:%M>\n%?")
+              ("h" "Hugo post" entry (file+headline blog-file "Posts")
+               (function cowlog/org-hugo-new-subtree-post-capture-template))))
 
       ;; Processing
       ;; Org Agenda Inbox View
@@ -136,6 +139,11 @@
             `("r" "reading" todo ""
               ((org-agenda-files '("~/.org/gtd/reading.org")))))
       (add-to-list 'org-agenda-custom-commands `,cowlog/org-agenda-reading-view)
+      ;; Org Agenda Blog view
+      (setq cowlog/org-agenda-blog-view
+            `("b" "blog" todo ""
+              ((org-agenda-files '("~/.org/gtd/blog.org")))))
+      (add-to-list 'org-agenda-custom-commands `,cowlog/org-agenda-blog-view)
 
       ;; Org TODO Keywords
       (setq org-todo-keywords
@@ -237,6 +245,9 @@
                      ((org-agenda-overriding-header "One-off Tasks")
                       (org-agenda-files '("~/.org/gtd/next.org"))
                       (org-agenda-skip-function '(org-agenda-skip-entry-if 'deadline 'scheduled))))
+               (todo "TODO"
+                     ((org-agenda-overriding-header "Blogs")
+                      (org-agenda-files '("~/.org/gtd/blog.org"))))
                nil)))
 
       (add-to-list 'org-agenda-custom-commands `,cowlog/org-agenda-todo-view)

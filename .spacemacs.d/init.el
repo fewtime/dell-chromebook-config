@@ -60,6 +60,7 @@ This function should only modify configuration layer settings."
      markdown
      (org :variables
           org-enable-reveal-js-support t
+          org-enable-hugo-support t
       )
      emacs-lisp
      (c-c++ :variables
@@ -78,8 +79,9 @@ This function should only modify configuration layer settings."
                wakatime-api-key "bfb119be-dfd3-474f-bddb-5ccb3011424e"
                wakatime-cli-path "/usr/bin/wakatime")
      deft
+     ;; custom layer
      leetcode
-
+     hugo
      cowlog
      )
 
