@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+#name : plantuml
+#key : pla
+#contributor : cowlog
+# --
+
+#+begin_src plantuml :file $1.png :exports none :cmdline -charset utf-8
+@startuml
+
+@enduml
+#+end_src
